@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Sentir, Responsive admin and dashboard UI kits template">
+		<meta name="keywords" content="admin,bootstrap,template,responsive admin,dashboard template,web apps template">
+		<meta name="author" content="Ari Rusmanto, Isoh Design Studio, Warung Themes">
+		<title>健康情况</title>
+
+
+		<!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/css/style.css" rel="stylesheet">
+		<link href="/static/css/style-responsive.css" rel="stylesheet">
+		<link href="/static/css/table.css" rel="stylesheet">
+
+		<script type="text/javascript" src="/static/CKE/ckeditor.js"></script>
+		<script type="text/javascript" src="/static/CKE/config.js"></script>
+		<script src="/static/js/healthy.js"></script>
+	</head>
+
+	<body class="tooltips">
+<!--华丽的分割线------------------------------------------------------------------------------------------------->
+		<!--富文本框_杨泽宇-->
+		<div style="margin-left:30%; margin-top:150px;">
+	<textarea id="TextArea1" cols="20" rows="2" class="ckeditor"></textarea>
+	
+	<script type="text/javascript">
+    CKEDITOR.replace('TextArea1');
+	</script>
+	
+	<script type="text/javascript">
+	//skin = 'v2';
+	width:'400';
+	height:'400';
+	//uiColor = 'red';
+	</script>
+		</div>
+
+
+	<!--
+		===========================================================
+		BEGIN PAGE
+		===========================================================
+		-->
+		{% module Nav() %}
+		
+
+
+
+
+
+		<!--
+		===========================================================
+		END PAGE
+		===========================================================
+		-->
+
+		<!--
+		===========================================================
+		Placed at the end of the document so the pages load faster
+		===========================================================
+		-->
+		<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
+		<script src="/static/js/jquery.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script src="/static/plugins/retina/retina.min.js"></script>
+		<script src="/static/plugins/nicescroll/jquery.nicescroll.js"></script>
+		<script src="/static/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+		<script src="/static/plugins/backstretch/jquery.backstretch.min.js"></script>
+		<!-- C3 JS -->
+
+		<!-- MAIN APPS JS -->
+		<script src="/static/js/apps.js"></script>
+		<script src="/static/js/demo-panel.js"></script>
+	</body>
+</html>
+

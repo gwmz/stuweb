@@ -1,0 +1,78 @@
+/* CSS Document */
+@charset "utf-8";
+.comtent{
+	background-color:#F9F9F9;
+	width:600px;
+}
+.table{
+	width:600px;
+}
+.TableHead{
+	border-top:0;
+	position:relative;
+	height:40px;
+	width::600px;
+	line-height:36px;
+	background-image:initial;
+	background-position-x:initial;
+	background-position-y:initial;
+	background-size:initial;
+	background-repeat-x:initial;
+	background-repeat-y:initial;
+	background-attachment:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:rgb(250,250,250);
+	color:#000000;
+	font-size:13px;
+	font-weight:600;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:8px;
+	padding-right:8px;
+	
+}
+.title{
+	padding-left:45%;
+	margin-top:0;
+	margin-bottom:0;
+}
+.tablepanel{
+	border-top:0;
+}
+.tablecomtent{
+	position:relative;
+}
+thead{
+	display:table-header-group;
+	vertical-align:middle;
+	border-color:inherit;
+}
+tr{
+	display:table-row;
+	vertical-align:inherit;
+	border-color:inherit;
+}
+.table>thead>tr>th{
+	line-height:1.5;
+	padding:5px;
+	font-weight:600;
+	vertical-align:bottom;
+	border-bottom;1px solid #eeeeee;
+}
+tbody{
+	display:table-row-group;
+	vertical-align:middle;
+	border-color:inherit;
+}
+.table>tbody>tr>td{
+	padding:4.5px;
+	line-height:1.5;
+	vertical-align:middle;
+}
+.searchBox{
+	width:150px;
+	position:relative;
+	top:8px;
+	float:right;
+}
